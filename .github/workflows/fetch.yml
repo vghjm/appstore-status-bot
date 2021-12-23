@@ -2,7 +2,7 @@ name: Fetch Appstore Info
 
 on:
  schedule:
-     - cron: "0/15 * * * *"
+     - cron: "0/5 * * * *"
 
 jobs:
   build:
@@ -36,5 +36,5 @@ jobs:
           commit-message: 'Store Appstore Info'
           force-add: 'true'
           files: store.db
-          name: Fernando
-          email: techin.park@daum.net
+          name: vghjm
+          email: vghjm@naver.com
